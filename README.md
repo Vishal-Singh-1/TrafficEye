@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # TrafficEye
 
 <<<<<<< HEAD
@@ -56,3 +57,6 @@ This project detects vehicles in traffic videos using YOLO.
   ```bash
   pip install -r requirements.txt
 >>>>>>> d3aff4b (Update README with project details and requirements)
+=======
+# TrafficEye
+>>>>>>> 4aa25f0 (Initial commit)
