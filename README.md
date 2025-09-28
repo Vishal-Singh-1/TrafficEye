@@ -5,6 +5,8 @@ TrafficEye is a traffic monitoring system that detects vehicles in traffic video
 ## Features
 
 - **Vehicle detection and counting** using YOLOv5
+- **Multiprocessing for faster analysis**: Parallel processing improves speed and responsiveness
+- **Data logging**: Detection statistics and analytics are saved for later review and reporting
 - **Separate detection stats** for cars, buses, bikes, and persons
 - **React-based frontend** with charts and dashboard
 - **Backend** written in Python (OpenCV + PyTorch)
@@ -46,3 +48,8 @@ cd frontend
 npm start
 ```
 The dashboard will open at `http://localhost:3000`.
+
+## New in this release
+
+- Multiprocessing support for improved performance
+- Automatic data logging of detection results and analytics
