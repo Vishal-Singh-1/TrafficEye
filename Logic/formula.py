@@ -1,3 +1,20 @@
+def analyze_traffic_data(processed_data):
+    """
+    Aggregate and analyze results from multiple videos.
+    Args:
+        processed_data (list): List of per-video summaries (dicts with vehicle counts, etc.)
+    Returns:
+        dict: Aggregated analytics for all input videos.
+    """
+    total = {"car": 0, "bus": 0, "bike": 0, "person": 0}
+    for result in processed_data:
+        # Defensive: skip if result is not a dict
+        if not isinstance(result, dict):
+            continue
+        for key in total:
+            total[key] += result.get(key, 0)
+    return total
+
 # -------------------------------
 # Adaptive Traffic Light Controller (Improved)
 # -------------------------------
