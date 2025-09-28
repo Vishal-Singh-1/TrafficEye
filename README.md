@@ -1,8 +1,6 @@
-<<<<<<< HEAD
 # TrafficEye
 
-<<<<<<< HEAD
-TrafficEye is a traffic monitoring system that detects vehicles in videos using YOLO and provides a real-time dashboard UI.
+TrafficEye is a traffic monitoring system that detects vehicles in traffic videos using YOLO and provides a real-time dashboard UI.
 
 ## Features
 
@@ -48,15 +46,3 @@ cd frontend
 npm start
 ```
 The dashboard will open at `http://localhost:3000`.
-=======
-This project detects vehicles in traffic videos using YOLO.
-
-## Requirements
-- Python 3.8+
-- Install dependencies:
-  ```bash
-  pip install -r requirements.txt
->>>>>>> d3aff4b (Update README with project details and requirements)
-=======
-# TrafficEye
->>>>>>> 4aa25f0 (Initial commit)
